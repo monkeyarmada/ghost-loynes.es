@@ -1,6 +1,6 @@
 {
-    "name": "journal",
-    "description": "A Ghost theme",
+    "name": "ghost-loynes-es",
+    "description": "Ghost theme for loyn.es",
     "version": "1.0.0",
     "private": true,
     "engines": {
@@ -42,6 +42,11 @@
         },
         "card_assets": true,
         "custom": {
+            "content_type": {
+              "type": "select",
+              "options": ["post", "issue"],
+              "default": "post"
+            },
             "navigation_layout": {
                 "type": "select",
                 "options": ["Logo on the left", "Logo in the middle", "Stacked"],
